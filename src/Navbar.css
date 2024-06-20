@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0033a0;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-item img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .nav-item span {
+    font-size: 14px;
+  }
+  

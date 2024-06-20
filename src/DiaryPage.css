@@ -1,0 +1,12 @@
+.diary-page {
+    padding: 20px;
+  }
+  
+  .button-grid {
+    margin-top: 20px;
+  }
+  
+  .button-grid .MuiButton-outlined {
+    height: 80px;
+  }
+  

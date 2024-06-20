@@ -1,0 +1,27 @@
+.exercise-page {
+    padding: 20px;
+  }
+  
+  .record-list {
+    margin-top: 20px;
+  }
+  
+  .record-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .record-content {
+    flex: 1;
+  }
+  
+  .record-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
