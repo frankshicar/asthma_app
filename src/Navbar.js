@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src="icons/diary-icon.png" alt="日記" />
         <span>日記</span>
       </Link>
-      <Link to="/air" className="nav-item">
+      <Link to="/airquality" className="nav-item">
         <img src="icons/leaf-icon.png" alt="空氣" />
         <span>空氣</span>
       </Link>

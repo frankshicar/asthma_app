@@ -16,9 +16,15 @@ import DietPage from './DietPage';
 import AddDietRecord from './AddDietRecord';
 import PeakflowPage from './PeakflowPage';
 import AddPeakflowRecord from './AddPeakflowRecord';
+import AirQualityPage from './AirQualityPage';
+import ReminderPage from './ReminderPage';
+import AddReminderRecord from './AddReminderRecord';
+import ProfilePage from './ProfilePage';
+
 
 const App = () => {
   const [records, setRecords] = useState([]);
+  const [reminders, setReminders] = useState([]);
 
   const addRecord = (newRecord) => {
     setRecords([...records, newRecord]);
@@ -28,6 +34,16 @@ const App = () => {
     const updatedRecords = [...records];
     updatedRecords[index] = updatedRecord;
     setRecords(updatedRecords);
+  };
+
+  const addReminder = (newReminder) => {
+    setReminders([...reminders, newReminder]);
+  };
+
+  const updateReminder = (updatedReminder, index) => {
+    const updatedReminders = [...reminders];
+    updatedReminders[index] = updatedReminder;
+    setReminders(updatedReminders);
   };
 
   return (
@@ -50,6 +66,11 @@ const App = () => {
           <Route path="/peakflow" element={<PeakflowPage records={records} setRecords={setRecords} />} />
           <Route path="/add-peakflow" element={<AddPeakflowRecord addRecord={addRecord} updateRecord={updateRecord} />} />
           <Route path="/" element={<LoginPage />} />
+          <Route path="/airquality" element={<AirQualityPage />} />
+          <Route path="/reminder" element={<ReminderPage reminders={reminders} setReminders={setReminders} />} />
+          <Route path="/add-reminder" element={<AddReminderRecord addRecord={addReminder} updateRecord={updateReminder} />} />
+          <Route path="/profile" element={<ProfilePage />} />
+
         </Routes>
         <Navbar />
       </div>
@@ -58,4 +79,3 @@ const App = () => {
 };
 
 export default App;
-

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, Button, Grid } from '@mui/material';
+import { TextField, Button, Grid, AppBar, Toolbar, Typography } from '@mui/material';
 import { LocalizationProvider, DatePicker } from '@mui/lab';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import { useNavigate } from 'react-router-dom';
@@ -15,7 +15,16 @@ const DiaryPage = () => {
 
   return (
     <div className="diary-page">
-      <h2>使用者日記</h2>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" style={{ flexGrow: 1 }}>
+            使用者日記
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      
+      <div className="toolbar-spacer"></div>
+      
       <LocalizationProvider dateAdapter={AdapterDateFns}>
         <DatePicker
           label="日期"
@@ -24,6 +33,7 @@ const DiaryPage = () => {
           renderInput={(params) => <TextField {...params} fullWidth margin="normal" />}
         />
       </LocalizationProvider>
+      
       <Grid container spacing={2} className="button-grid">
         <Grid item xs={6}>
           <Button

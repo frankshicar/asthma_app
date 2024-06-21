@@ -1,0 +1,28 @@
+.add-reminder-record {
+    padding: 20px;
+  }
+  
+  .add-reminder-record h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-reminder-record .MuiTextField-root,
+  .add-reminder-record .MuiFormControlLabel-root {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .add-reminder-record .MuiButton-root {
+    margin-top: 20px;
+  }
+  
+  .add-reminder-record .MuiButton-containedPrimary {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  .add-reminder-record .MuiButton-containedPrimary:hover {
+    background-color: #115293;
+  }
+  

@@ -1,0 +1,29 @@
+.reminder-page {
+    padding: 20px;
+  }
+  
+  .reminder-list {
+    width: 100%;
+  }
+  
+  .reminder-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .reminder-item .MuiListItemSecondaryAction-root {
+    display: flex;
+    align-items: center;
+  }
+  
+  .reminder-text {
+    font-weight: bold; /* 設置字體為粗體 */
+  }
+  
+  .reminder-item img {
+    cursor: pointer;
+  }
+  

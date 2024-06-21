@@ -1,12 +1,20 @@
 .diary-page {
-    padding: 20px;
-  }
-  
-  .button-grid {
-    margin-top: 20px;
-  }
-  
-  .button-grid .MuiButton-outlined {
-    height: 80px;
-  }
-  
+  padding: 16px;
+}
+
+.toolbar-spacer {
+  margin-top: 16px; /* 調整這裡的數值來設置Toolbar和其他內容的距離 */
+}
+
+.button-grid {
+  margin-top: 16px; /* 調整這裡的數值來設置按鈕網格和日期選擇器的距離 */
+}
+
+.button-grid .MuiButton-root {
+  font-size: 15px; /* 調整按鈕字體大小 */
+  padding: 40px; /* 調整按鈕內部間距 */
+}
+
+.muiTextField-root {
+  margin-top: 16px; /* 調整這裡的數值來設置日期選擇器和Toolbar的距離 */
+}

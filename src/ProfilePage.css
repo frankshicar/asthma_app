@@ -1,0 +1,32 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 80px; /* 增加 padding-bottom 以避免被導航欄擋住 */
+  }
+  
+  .profile-edit .MuiTextField-root {
+    margin-bottom: 10px;
+  }
+  
+  .profile-view .MuiTypography-root {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-bottom: 10px;
+  }
+  
