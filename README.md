@@ -1,3 +1,17 @@
+# 實際操作影片
+
+### asthma_app 日記操作影片
+https://youtu.be/U_RKbWBgYYg
+
+### asthma_app 空氣品質操作影片
+https://youtube.com/shorts/XeHaWd3--F0?feature=share
+
+### asthma_app 用藥提醒操作影片
+https://youtu.be/7BSftxKAEL8
+
+### asthma_app 個人資訊修改操作影片
+https://youtu.be/ZuBT95uFagM
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
